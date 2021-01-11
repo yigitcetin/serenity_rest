@@ -8,10 +8,8 @@ import net.serenitybdd.junit.runners.SerenityRunner;
 import net.serenitybdd.rest.SerenityRest;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.rest.abilities.CallAnApi;
-import net.serenitybdd.screenplay.rest.interactions.Delete;
 import net.serenitybdd.screenplay.rest.interactions.Get;
 import net.serenitybdd.screenplay.rest.interactions.Post;
-import net.serenitybdd.screenplay.rest.interactions.Put;
 import net.thucydides.core.util.EnvironmentVariables;
 import io.cucumber.java.en.When;
 import io.cucumber.java.en.Then;
@@ -21,7 +19,6 @@ import org.junit.runner.RunWith;
 import rest.model.Book;
 
 import java.util.List;
-import java.util.Map;
 
 @RunWith(SerenityRunner.class)
 public class ApiRunner {
